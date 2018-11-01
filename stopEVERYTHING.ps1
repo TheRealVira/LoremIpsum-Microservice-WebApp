@@ -1,0 +1,1 @@
+docker ps -a -q | ForEach { docker stop $_ }

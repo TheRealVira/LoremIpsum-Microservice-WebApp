@@ -1,0 +1,22 @@
+<h1>Lorem Ipsum Generator~</h1>
+
+<p>This is a Lorem Ipsum inspired generator - a microservice which is running on a totally different location, containerized, threadsafe, modulation-friendly, and powerful.</p>
+
+<form>
+  <p>
+    <button type="button" class="btn btn-primary" (click)="generate()">Generate Text</button>
+    Mode;
+    <select (change)="onChange($event.target.value)">
+      <option *ngFor="let key of keys" [value]="key">{{generators[key]}}</option>
+    </select>
+  </p>
+  <p>
+    <textarea readonly name="AreaToGenerateIn" rows="10" cols="25" [(ngModel)]="areaToGenerateIn"></textarea>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary" (click)="copyToClipboard()">
+      <span class='glyphicon glyphicon-copy'></span>
+      Copy to Clipboard
+    </button>
+  </p>
+</form>

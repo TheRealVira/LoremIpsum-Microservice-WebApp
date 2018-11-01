@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./LoremIpsum/Dockerfile
+    ports:
+      - '58747:58747'
+      - '44316:44316'
+  li_service:
+    build:
+      context: .
+      dockerfile: ./Services/LoremIpsumService/Dockerfile
+    ports:
+      - '59021:59021'
+      - '44354:44354'

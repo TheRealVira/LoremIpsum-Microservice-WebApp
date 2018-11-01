@@ -1,0 +1,17 @@
+{
+  "name": "loremipsum",
+  "version": "1.0.0",
+  "description": "A Lorem Ipsum ASP.NET Core Angular based web app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheRealVira",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.9"
+  },
+  "dependencies": {
+    "ngclipboard": "^2.0.0"
+  }
+}
