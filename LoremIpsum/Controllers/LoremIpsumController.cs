@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace LoremIpsum.Controllers
 {
-    [Route("interface/LoremIpsumController")]
+    [Route("interface/lorem_ipsum_generator")]
     [ApiController]
     public class LoremIpsumController : Controller
     {
@@ -21,7 +21,7 @@ namespace LoremIpsum.Controllers
         [ActionName("GetLoremIpsumText")]
         public async Task<List<string>> GetLoremIpsumText(string generatorType, int count, int length)
         {
-            var url = GetBaseUrl() + "/api/LoremIpsumController/" +
+            var url = GetBaseUrl() + "/api/lorem_ipsum_generator/" +
                       generatorType + "/" + count + "/" + length;
 
             var content = JsonConvert.SerializeObject(new List<string>()

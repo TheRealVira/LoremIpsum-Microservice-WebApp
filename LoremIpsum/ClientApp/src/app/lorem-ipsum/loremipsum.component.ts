@@ -28,7 +28,7 @@ export class LoremIpsumComponent {
 
   generate() {
     this.http.get<string[]>(this.baseUrl +
-      'interface/LoremIpsumController/' +
+      'interface/lorem_ipsum_generator/' +
       LoremIpsumGeneratorType[this.currentValue] +
       "/1/10").subscribe(result => {
         this.areaToGenerateIn = result[0];

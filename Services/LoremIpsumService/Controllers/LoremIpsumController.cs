@@ -6,12 +6,11 @@ using Newtonsoft.Json;
 
 namespace LoremIpsumService.Controllers
 {
-    [Route("api/LoremIpsumController")]
+    [Route("api/lorem_ipsum_generator")]
     [ApiController]
     [Produces("application/json")]
     public class LoremIpsumController : ControllerBase
     {
-        // GET api/values/5
         [HttpGet("{generatorType}/{count}/{length}")]
         public ActionResult<string> Get(string generatorType,int count, int length)
         {
