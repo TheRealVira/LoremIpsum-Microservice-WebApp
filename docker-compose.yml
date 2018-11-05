@@ -5,12 +5,10 @@ services:
       context: .
       dockerfile: ./LoremIpsum/Dockerfile
     ports:
-      - '58747:58747'
-      - '44316:44316'
+      - '80:80'
   li_service:
     build:
       context: .
-      dockerfile: ./Services/LoremIpsumService/Dockerfile
+      dockerfile: ./Services/LoremIpsum-Service/Dockerfile
     ports:
-      - '59021:59021'
-      - '44354:44354'
+      - '80:80'

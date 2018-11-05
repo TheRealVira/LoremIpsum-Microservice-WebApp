@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoremIpsum", "LoremIpsum\LoremIpsum.csproj", "{DC869519-53DF-4777-A595-BD7608984ECF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoremIpsumService", "Services\LoremIpsumService\LoremIpsumService.csproj", "{9D1C0B04-9428-489D-A335-25976627FAEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoremIpsumService", "Services\LoremIpsum-Service\LoremIpsumService.csproj", "{9D1C0B04-9428-489D-A335-25976627FAEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8F61FEC-8310-4611-9A60-8C7F5756EF95}"
 	ProjectSection(SolutionItems) = preProject
