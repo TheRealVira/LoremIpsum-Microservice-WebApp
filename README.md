@@ -2,7 +2,7 @@
 This high responsible, dynamically scalable, near to zero down-time approachable web-application is based on microservices, docker, ASP.Net, Angular, and much more!
 
 ## Publish
-A published version can be found [here](https://lipsumwebapp.azurewebsites.net/lorem-ipsum)
+A published version can be found [here](https://lipsumwebapp.azurewebsites.net/lorem-ipsum)!
 
 ## Dependencies
 To build or edit this project you would  need the following software packages installed:
