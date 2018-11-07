@@ -1,0 +1,2 @@
+sh pullForEverySubmoduleFromMaster.sh
+git pull
