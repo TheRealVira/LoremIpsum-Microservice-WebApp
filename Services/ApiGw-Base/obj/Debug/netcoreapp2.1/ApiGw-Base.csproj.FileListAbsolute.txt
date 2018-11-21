@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\bin\Debug\netcoreapp2.1\ApiGw-Base.deps.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\bin\Debug\netcoreapp2.1\ApiGw-Base.runtimeconfig.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\bin\Debug\netcoreapp2.1\ApiGw-Base.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\bin\Debug\netcoreapp2.1\ApiGw-Base.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\bin\Debug\netcoreapp2.1\ApiGw-Base.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.1\ApiGw-Base.pdb
