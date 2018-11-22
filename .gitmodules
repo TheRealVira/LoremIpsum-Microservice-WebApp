@@ -4,3 +4,6 @@
 [submodule "LoremIpsum"]
 	path = LoremIpsum
 	url = https://github.com/TheRealVira/LoremIpsum-Webinterface.git
+[submodule "Services/LoremIpsum"]
+	path = Services/LoremIpsum
+	url = https://github.com/TheRealVira/LoremIpsum-Service.git
