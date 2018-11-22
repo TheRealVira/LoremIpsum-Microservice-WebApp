@@ -1,6 +1,3 @@
-[submodule "Services/LoremIpsum-Service"]
-	path = Services/LoremIpsum-Service
-	url = https://github.com/TheRealVira/LoremIpsum-Service.git
 [submodule "LoremIpsum"]
 	path = LoremIpsum
 	url = https://github.com/TheRealVira/LoremIpsum-Webinterface.git

@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Logon.API\obj\Debug\netcoreapp2.2\Logon.API.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Logon.API\obj\Debug\netcoreapp2.2\Logon.API.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Logon.API\obj\Debug\netcoreapp2.2\Logon.API.AssemblyInfo.cs
