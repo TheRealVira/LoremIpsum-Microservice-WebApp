@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\bin\Debug\Lipsumuser.dacpac
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\bin\Debug\Lipsumuser.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\bin\Debug\Lipsumuser.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\Lipsumuser.sqlprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\Model.xml
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\refactor.xml
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\postdeploy.sql
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\predeploy.sql
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\Lipsumuser.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\obj\Debug\Lipsumuser.pdb

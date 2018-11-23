@@ -1,0 +1,81 @@
+23/11/2018 09:03:09	This log contains information about the import schema operation into project 'Lipsumuser' on computer 'NB921UD' by user 'Administrator'.
+23/11/2018 09:03:10	Import of database schema has started.
+23/11/2018 09:03:40	Gathering logins
+23/11/2018 09:06:44	Gathering database credentials
+23/11/2018 09:06:44	Gathering database options
+23/11/2018 09:06:44	Gathering generic database scoped configuration option
+23/11/2018 09:06:44	Gathering users
+23/11/2018 09:06:44	Gathering roles
+23/11/2018 09:06:44	Gathering application roles
+23/11/2018 09:06:44	Gathering role memberships
+23/11/2018 09:06:44	Gathering filegroups
+23/11/2018 09:06:44	Gathering full-text catalogs
+23/11/2018 09:06:44	Gathering assemblies
+23/11/2018 09:06:44	Gathering certificates
+23/11/2018 09:06:44	Gathering symmetric keys
+23/11/2018 09:06:44	Gathering encrypted symmetric keys
+23/11/2018 09:06:44	Gathering schemas
+23/11/2018 09:06:44	Gathering XML schema collections
+23/11/2018 09:06:44	Gathering user-defined data types
+23/11/2018 09:06:44	Gathering user-defined types
+23/11/2018 09:06:44	Gathering table types
+23/11/2018 09:06:44	Gathering unique keys for table types
+23/11/2018 09:06:44	Gathering primary keys for table types
+23/11/2018 09:06:44	Gathering indexes for table types
+23/11/2018 09:06:44	Gathering check constraints for table types
+23/11/2018 09:06:44	Gathering default constraints for table types
+23/11/2018 09:06:44	Gathering partition functions
+23/11/2018 09:06:44	Gathering partition schemes
+23/11/2018 09:06:44	Gathering functions
+23/11/2018 09:06:44	Gathering encrypted functions
+23/11/2018 09:06:44	Gathering aggregates
+23/11/2018 09:06:44	Gathering procedures
+23/11/2018 09:06:44	Gathering encrypted procedures
+23/11/2018 09:06:44	Gathering tables
+23/11/2018 09:06:44	Gathering primary keys
+23/11/2018 09:06:44	Gathering unique constraints
+23/11/2018 09:06:44	Gathering foreign keys
+23/11/2018 09:06:44	Gathering default constraints
+23/11/2018 09:06:44	Gathering check constraints
+23/11/2018 09:06:44	Gathering views
+23/11/2018 09:06:44	Gathering encrypted views
+23/11/2018 09:06:44	Gathering indexes
+23/11/2018 09:06:44	Gathering statistics
+23/11/2018 09:06:44	Gathering full-text index stoplists
+23/11/2018 09:06:44	Gathering search property lists
+23/11/2018 09:06:44	Gathering search properties
+23/11/2018 09:06:44	Gathering full-text indexes
+23/11/2018 09:06:44	Gathering column store indexes
+23/11/2018 09:06:44	Gathering spatial indexes
+23/11/2018 09:06:44	Gathering XML indexes
+23/11/2018 09:06:44	Gathering Selective XML indexes
+23/11/2018 09:06:44	Gathering encrypted triggers
+23/11/2018 09:06:44	Gathering triggers
+23/11/2018 09:06:44	Gathering encrypted and clr ddl triggers
+23/11/2018 09:06:44	Gathering ddl triggers
+23/11/2018 09:06:44	Gathering synonyms
+23/11/2018 09:06:45	Gathering defaults
+23/11/2018 09:06:45	Gathering data constraint uddt bindings
+23/11/2018 09:06:45	Gathering rules
+23/11/2018 09:06:45	Gathering data constraint uddt bindings
+23/11/2018 09:06:45	Gathering message types
+23/11/2018 09:06:45	Gathering queues
+23/11/2018 09:06:45	Gathering contracts
+23/11/2018 09:06:45	Gathering services
+23/11/2018 09:06:45	Gathering event notifications
+23/11/2018 09:06:45	Gathering remote service bindings
+23/11/2018 09:06:45	Gathering broker priorities
+23/11/2018 09:06:45	Gathering signatures
+23/11/2018 09:06:45	Gathering data compression options
+23/11/2018 09:06:45	Gathering sequence types
+23/11/2018 09:06:45	Gathering security policies
+23/11/2018 09:06:45	Gather column encryption keys
+23/11/2018 09:06:45	Gathering column master keys
+23/11/2018 09:06:45	Gathering external data sources
+23/11/2018 09:06:45	Gathering external tables
+23/11/2018 09:06:45	Gathering database permissions
+23/11/2018 09:06:45	Gathering extended properties
+23/11/2018 09:06:56	Gathering logins
+23/11/2018 09:07:01	Finished importing database.
+23/11/2018 09:07:01	A summary of the import was saved to the following location: C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Database\Lipsumuser\Import Schema Logs\Lipsumuser_20181123080309.log
+23/11/2018 09:07:01	Click Finish to continue...
