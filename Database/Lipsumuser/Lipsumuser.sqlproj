@@ -65,7 +65,4 @@
   <ItemGroup>
     <PostDeploy Include="AddUser.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ShowUser.sql" />
-  </ItemGroup>
 </Project>
