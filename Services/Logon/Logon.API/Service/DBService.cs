@@ -1,6 +1,11 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
+using Logon.API.Controllers;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Logon.API.Service
 {
@@ -32,5 +37,7 @@ namespace Logon.API.Service
                 }
             }
         }
+
+        
     }
 }

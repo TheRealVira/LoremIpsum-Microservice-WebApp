@@ -27,7 +27,9 @@ namespace Logon.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.Configure<Controllers.Audience>(Configuration.GetSection("Audience"));
             services.AddScoped(typeof(IDBService), typeof(DBService));
+            services.AddScoped(typeof(IAuthenticationService), typeof(AuthenticationService));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

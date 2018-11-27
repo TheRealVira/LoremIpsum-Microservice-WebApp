@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0-preview3-35497" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0-preview3-35497" />
+    <PackageReference Include="Ocelot" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "bd3967962be0dc2ba56b95c4f4814eec54f93bec"
+    "signature": "2dfaab50e5a946872f53d7cf6cde4c46886028bc"
   },
   "compilationOptions": {
     "defines": [
@@ -28,13 +28,31 @@
           "Microsoft.AspNetCore.Razor.Design": "2.2.0-preview3-35497",
           "Microsoft.NETCore.App": "2.2.0-preview3-27014-02",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0-preview3-35497"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0-preview3-35497",
+          "Ocelot": "12.0.1"
         },
         "runtime": {
           "Logon.API.dll": {}
         },
         "compile": {
           "Logon.API.dll": {}
+        }
+      },
+      "FluentValidation/7.6.104": {
+        "dependencies": {
+          "System.Collections.Concurrent": "4.3.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.6.104.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -378,6 +396,36 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "Ocelot/12.0.1": {
+        "dependencies": {
+          "FluentValidation": "7.6.104",
+          "Microsoft.AspNetCore": "2.2.0-preview3-35497",
+          "Microsoft.AspNetCore.MiddlewareAnalysis": "2.2.0-preview3-35497",
+          "Microsoft.AspNetCore.Mvc": "2.2.0-preview3-35497",
+          "Microsoft.Extensions.DiagnosticAdapter": "2.2.0-preview3-35497"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ocelot.dll": {
+            "assemblyVersion": "12.0.1.0",
+            "fileVersion": "12.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Ocelot.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Composition/1.0.31": {
         "dependencies": {
           "System.Composition.AttributedModel": "1.0.31",
@@ -515,6 +563,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.ValueTuple/4.5.0": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -1801,7 +1850,7 @@
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Parallel": "4.3.0",
           "System.Threading.Thread": "4.3.0",
-          "System.ValueTuple": "4.3.0",
+          "System.ValueTuple": "4.5.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath.XDocument": "4.3.0",
@@ -3418,14 +3467,6 @@
         },
         "compileOnly": true
       },
-      "System.ValueTuple/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
-        "compileOnly": true
-      },
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3535,6 +3576,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/7.6.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zHODi5T4CkYm9WgukQaCfsMARg7FJeWPk2REwVflOlWIUhTX4iNgqa6Zf9/bpTlagTq2wSnVr9bbIUd8Y/uOrg==",
+      "path": "fluentvalidation/7.6.104",
+      "hashPath": "fluentvalidation.7.6.104.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
@@ -3669,6 +3717,27 @@
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
     },
+    "Ocelot/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+e1YibrS6g1Kp5Qs48HHuxWWhAypuJvm/LD9840bpih1qmq/LoHuqCZSy15fUSTkMoM5O3ES6NYzmPHvgHeTWg==",
+      "path": "ocelot/12.0.1",
+      "hashPath": "ocelot.12.0.1.nupkg.sha512"
+    },
+    "System.ComponentModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
     "System.Composition/1.0.31": {
       "type": "package",
       "serviceable": true,
@@ -3717,6 +3786,13 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
@@ -5600,13 +5676,6 @@
       "sha512": "sha512-OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
       "path": "system.threading.thread/4.3.0",
       "hashPath": "system.threading.thread.4.3.0.nupkg.sha512"
-    },
-    "System.ValueTuple/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
-      "path": "system.valuetuple/4.3.0",
-      "hashPath": "system.valuetuple.4.3.0.nupkg.sha512"
     },
     "System.Xml.ReaderWriter/4.3.0": {
       "type": "package",

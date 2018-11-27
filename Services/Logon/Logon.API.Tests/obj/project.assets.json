@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "FluentValidation/7.6.104": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Concurrent": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -3870,6 +3885,22 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "Ocelot/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "7.6.104",
+          "Microsoft.AspNetCore": "2.1.1",
+          "Microsoft.AspNetCore.MiddlewareAnalysis": "2.1.1",
+          "Microsoft.AspNetCore.Mvc": "2.1.1",
+          "Microsoft.Extensions.DiagnosticAdapter": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ocelot.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ocelot.dll": {}
+        }
+      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -4362,10 +4393,10 @@
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
         }
       },
-      "System.ComponentModel/4.0.1": {
+      "System.ComponentModel/4.3.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime": "4.1.0"
+          "System.Runtime": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.0/System.ComponentModel.dll": {}
@@ -4398,12 +4429,12 @@
           "lib/netstandard1.3/System.ComponentModel.EventBasedAsync.dll": {}
         }
       },
-      "System.ComponentModel.Primitives/4.1.0": {
+      "System.ComponentModel.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
-          "System.ComponentModel": "4.0.1",
-          "System.Resources.ResourceManager": "4.0.1",
-          "System.Runtime": "4.1.0"
+          "System.ComponentModel": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.0/System.ComponentModel.Primitives.dll": {}
@@ -6320,7 +6351,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0-preview3-35497",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0-preview3-35497"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0-preview3-35497",
+          "Ocelot": "12.0.1"
         },
         "compile": {
           "bin/placeholder/Logon.API.dll": {}
@@ -6332,6 +6364,25 @@
     }
   },
   "libraries": {
+    "FluentValidation/7.6.104": {
+      "sha512": "zHODi5T4CkYm9WgukQaCfsMARg7FJeWPk2REwVflOlWIUhTX4iNgqa6Zf9/bpTlagTq2wSnVr9bbIUd8Y/uOrg==",
+      "type": "package",
+      "path": "fluentvalidation/7.6.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.7.6.104.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "zisTbxitzki256+rKY0myI2T1yLyO9+qAU8P+FXkd8Dv0Iymk484Y9SbwUlyL3igF/bpiCv7SCdv349rN/JbfQ==",
       "type": "package",
@@ -10638,6 +10689,18 @@
         "nuget.frameworks.nuspec"
       ]
     },
+    "Ocelot/12.0.1": {
+      "sha512": "+e1YibrS6g1Kp5Qs48HHuxWWhAypuJvm/LD9840bpih1qmq/LoHuqCZSy15fUSTkMoM5O3ES6NYzmPHvgHeTWg==",
+      "type": "package",
+      "path": "ocelot/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Ocelot.dll",
+        "ocelot.12.0.1.nupkg.sha512",
+        "ocelot.nuspec"
+      ]
+    },
     "Remotion.Linq/2.2.0": {
       "sha512": "twDAH8dAXXCAf3sRv1Tf94u66eEHvgU75hfn1nn2v4fSWXD50XoDOAk8WpSrbViNuMkB4kN1ElnOGm1c519IHg==",
       "type": "package",
@@ -11416,10 +11479,10 @@
         "system.collections.specialized.nuspec"
       ]
     },
-    "System.ComponentModel/4.0.1": {
-      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+    "System.ComponentModel/4.3.0": {
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
       "type": "package",
-      "path": "system.componentmodel/4.0.1",
+      "path": "system.componentmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -11470,7 +11533,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.4.0.1.nupkg.sha512",
+        "system.componentmodel.4.3.0.nupkg.sha512",
         "system.componentmodel.nuspec"
       ]
     },
@@ -11632,10 +11695,10 @@
         "system.componentmodel.eventbasedasync.nuspec"
       ]
     },
-    "System.ComponentModel.Primitives/4.1.0": {
-      "sha512": "sc/7eVCdxPrp3ljpgTKVaQGUXiW05phNWvtv/m2kocXqrUQvTVWKou1Edas2aDjTThLPZOxPYIGNb/HN0QjURg==",
+    "System.ComponentModel.Primitives/4.3.0": {
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
-      "path": "system.componentmodel.primitives/4.1.0",
+      "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -11666,7 +11729,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.primitives.4.1.0.nupkg.sha512",
+        "system.componentmodel.primitives.4.3.0.nupkg.sha512",
         "system.componentmodel.primitives.nuspec"
       ]
     },

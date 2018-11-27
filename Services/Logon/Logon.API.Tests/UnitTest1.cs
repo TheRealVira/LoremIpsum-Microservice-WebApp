@@ -1,6 +1,7 @@
 using Logon.API.Controllers;
 using Logon.API.Service;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Xunit;
 
 namespace Logon.API.Tests
@@ -8,21 +9,26 @@ namespace Logon.API.Tests
     public class UnitTest1
     {
         private LogonController _controller;
-        private IDBService _service;
+        private IDBService _dbService;
+        private IAuthenticationService _authenticationService;
+
         public UnitTest1()
         {
-            _service = new DBServiceFake();
-            _controller = new LogonController(_service);
+            _dbService = new DBServiceFake();
+            _authenticationService = new AuthenticationServiceFake();
+            _controller = new LogonController(_dbService, _authenticationService, new OptionsWrapper<Audience>(
+                new Audience
+                    {Aud = "tester", Expiration = 2, Iss = "ab.com", Secret = "abcd"}));
         }
 
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()
         {
             // Act
-            var okResult = _controller.Get("username", "password");
+            var okResult = _controller.Get("username", "password").Result;
  
             // Assert
-            Assert.IsType<OkObjectResult>(okResult.Result);
+            Assert.IsType<OkObjectResult>(okResult);
         }
 
         [Fact]
@@ -32,8 +38,8 @@ namespace Logon.API.Tests
             var okResult = _controller.Get("username", "password").Result as OkObjectResult;
  
             // Assert
-            var item = Assert.IsAssignableFrom<bool>(okResult.Value);
-            Assert.True(item);
+            var item = Assert.IsAssignableFrom<MyToken>(okResult.Value);
+            Assert.Equal(item.AccessToken, "token");
         }
     }
 }

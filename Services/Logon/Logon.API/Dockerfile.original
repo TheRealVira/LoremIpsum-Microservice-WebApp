@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["Services/Logon/Logon.API/Logon.API.csproj", "Services/Logon/Logon.API/"]
-RUN dotnet restore "Services/Logon/Logon.API/Logon.API.csproj"
+COPY ["Logon.API/Logon.API.csproj", "Logon.API/"]
+RUN dotnet restore "Logon.API/Logon.API.csproj"
 COPY . .
-WORKDIR "/src/Services/Logon/Logon.API"
+WORKDIR "/src/Logon.API"
 RUN dotnet build "Logon.API.csproj" -c Release -o /app
 
 FROM build AS publish
