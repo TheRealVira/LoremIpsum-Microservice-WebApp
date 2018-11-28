@@ -1,4 +1,5 @@
-﻿using Logon.API.Controllers;
+﻿using Logon.API.Config;
+using Logon.API.Controllers;
 using Microsoft.Extensions.Options;
 
 namespace Logon.API.Service

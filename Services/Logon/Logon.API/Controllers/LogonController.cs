@@ -2,6 +2,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Logon.API.Config;
 using Logon.API.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -15,13 +16,16 @@ namespace Logon.API.Controllers
     {
         private IDBService _dbService;
         private IAuthenticationService _authenticationService;
-        private IOptions<Audience> _settings;
+        private IOptions<Audience> _audienceOptions;
+        private IOptions<DebuggingMode> _debuggingModeOptions;
 
-        public LogonController(IDBService dbService, IAuthenticationService authenticationService, IOptions<Audience> settings)
+        public LogonController(IDBService dbService, IAuthenticationService authenticationService,
+            IOptions<Audience> audienceOptions, IOptions<DebuggingMode> debuggingModeOptions)
         {
             _dbService = dbService;
             _authenticationService = authenticationService;
-            _settings = settings;
+            _audienceOptions = audienceOptions;
+            _debuggingModeOptions = debuggingModeOptions;
         }
 
 
@@ -29,9 +33,19 @@ namespace Logon.API.Controllers
         [HttpGet("{username}/{password}")]
         public ActionResult<MyToken> Get(string username, string password)
         {
+            if (_debuggingModeOptions.Value.IsOn)
+            {
+                if (username.Equals("Tester1") && password.Equals("Tester1"))
+                {
+                    return Ok(_authenticationService.Authentication(username, password, _audienceOptions));
+                }
+
+                return BadRequest();
+            }
+
             if (!_dbService.Login(username, password)) return BadRequest();
   
-            return Ok(_authenticationService.Authentication(username, password, _settings));
+            return Ok(_authenticationService.Authentication(username, password, _audienceOptions));
         }
     }
 
@@ -39,13 +53,5 @@ namespace Logon.API.Controllers
     {
         public string AccessToken { get;set;}
         public int ExpiresIn { get; set; }
-    }
-
-    public class Audience
-    {
-        public string Secret { get; set; }
-        public string Iss { get; set; }
-        public string Aud { get; set; }
-        public int Expiration { get; set; }
     }
 }
