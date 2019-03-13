@@ -1,3 +1,4 @@
+using Logon.API.Config;
 using Logon.API.Controllers;
 using Logon.API.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +19,7 @@ namespace Logon.API.Tests
             _authenticationService = new AuthenticationServiceFake();
             _controller = new LogonController(_dbService, _authenticationService, new OptionsWrapper<Audience>(
                 new Audience
-                    {Aud = "tester", Expiration = 2, Iss = "ab.com", Secret = "abcd"}));
+                    {Aud = "tester", Expiration = 2, Iss = "ab.com", Secret = "abcd"}), null);
         }
 
         [Fact]

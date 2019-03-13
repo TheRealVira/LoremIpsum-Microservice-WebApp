@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.exe
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.deps.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.runtimeconfig.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Release\netcoreapp2.1\Logon.API.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Release\netcoreapp2.1\Logon.API.pdb

@@ -15,3 +15,4 @@ C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.A
 C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Debug\netcoreapp2.2\Logon.API.pdb
 C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Debug\netcoreapp2.2\Logon.API.dll
 C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\obj\Debug\netcoreapp2.2\Logon.API.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\Logon\Logon.API\bin\Debug\netcoreapp2.2\Logon.API.exe

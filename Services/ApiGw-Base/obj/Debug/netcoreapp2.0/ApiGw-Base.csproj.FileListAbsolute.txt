@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.0\ApiGw-Base.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.0\ApiGw-Base.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\ApiGw-Base\obj\Debug\netcoreapp2.0\ApiGw-Base.AssemblyInfo.cs

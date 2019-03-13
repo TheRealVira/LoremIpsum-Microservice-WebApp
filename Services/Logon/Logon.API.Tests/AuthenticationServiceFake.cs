@@ -1,4 +1,5 @@
 ﻿using System;
+using Logon.API.Config;
 using Logon.API.Controllers;
 using Logon.API.Service;
 using Microsoft.Extensions.Options;
